@@ -122,8 +122,10 @@ def getAuth(partner, proxy):
     headers = {
         "X-Api-Platform": "tv-android",
         "X-Api-Auth": "laZOmogezono5ogekaso5oz4Mezimew1",
-        "User-Agent": userAgent_vidio,
-        "X-Api-App-Info": xApiInfo_vidio,
+        "User-Agent": "tv-android/1.92.1 (437)"
+,
+        "X-Api-App-Info": "tv-android/13/1.92.1-437"
+,
         "Accept-Language": "id",
         "Accept-Encoding": "gzip"
     }
@@ -196,8 +198,10 @@ def fungsi_login(email, password, user_token=None, user_auth_email=None):
     headers = {
         "X-Api-Platform": "tv-android",
         "X-Api-Auth": "laZOmogezono5ogekaso5oz4Mezimew1",
-        "User-Agent": userAgent_vidio,
-        "X-Api-App-Info": xApiInfo_vidio,
+        "User-Agent": "tv-android/1.92.1 (437)"
+,
+        "X-Api-App-Info": "tv-android/13/1.92.1-437"
+,
         "Accept-Language": "en",
         "X-Visitor-Id": session_id(),
         "Content-Type": "application/x-www-form-urlencoded",
@@ -227,8 +231,10 @@ def fungsi_get_subs(user_token, email):
     headers = {
         "X-Api-Platform": "tv-android",
         "X-Api-Auth": "laZOmogezono5ogekaso5oz4Mezimew1",
-        "User-Agent": userAgent_vidio,
-        "X-Api-App-Info": xApiInfo_vidio,
+        "User-Agent": "tv-android/1.92.1 (437)"
+,
+        "X-Api-App-Info": "tv-android/13/1.92.1-437"
+,
         "Accept-Language": "id",
         "X-User-Email": email,
         "X-User-Token": user_token,
@@ -286,8 +292,10 @@ def generate_code(partner):
     headers_tv = {
         "X-Api-Platform": "tv-android",
         "X-Api-Auth": "laZOmogezono5ogekaso5oz4Mezimew1",
-        "User-Agent": userAgent_vidio,
-        "X-Api-App-Info": xApiInfo_vidio,
+        "User-Agent": "tv-android/1.92.1 (437)"
+,
+        "X-Api-App-Info": "tv-android/13/1.92.1-437"
+,
         "Accept-Language": "id",
         "Accept-Encoding": "gzip"
     }
@@ -306,8 +314,10 @@ def generate_code(partner):
     headers_verify = {
         "X-Api-Platform": "tv-android",
         "X-Api-Auth": "laZOmogezono5ogekaso5oz4Mezimew1",
-        "User-Agent": userAgent_vidio,
-        "X-Api-App-Info": xApiInfo_vidio,
+        "User-Agent": "tv-android/1.92.1 (437)"
+,
+        "X-Api-App-Info": "tv-android/13/1.92.1-437"
+,
         "Accept-Language": "id",
         "X-User-Email": auth_email,
         "X-User-Token": authentication_token,
@@ -436,8 +446,10 @@ def main():
 
 
 print('       _     _ _       \n      (_)   | (_)      \n__   ___  __| |_  ___  \n\ \ / / |/ _` | |/ _ \ \n \ V /| | (_| | | (_) |\n  \_/ |_|\__,_|_|\___/ ')
-userAgent_vidio = "tv-android/1.92.1 (437)"
-xApiInfo_vidio = "tv-android/13/1.92.1-437"
+userAgent_vidio
+ = "tv-android/1.92.1 (437)"
+xApiInfo_vidio
+ = "tv-android/13/1.92.1-437"
 saveAuth = []
 
 init(autoreset=True)
