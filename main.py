@@ -97,7 +97,7 @@ def fungsi_register(email, password):
         "X-Api-Platform": "app-android",
         "X-Api-Auth": "laZOmogezono5ogekaso5oz4Mezimew1",
         "User-Agent": "tv-android/1.92.1 (437)"
-        "X-Api-App-Info": xApiInfo_vidio,
+        "X-Api-App-Info": "tv-android/13/1.92.1-437"
         "Accept-Language": "id",
         "Content-Type": "application/x-www-form-urlencoded",
         "Accept-Encoding": "gzip"
